@@ -1,0 +1,231 @@
+
+header {
+	background-color: white;
+	text-align: center;
+}
+
+.altheader {
+	background-color: white;
+	text-align: center;
+	border: 1px black solid;
+}
+
+.headerimg {
+	width: 25%;
+	min-width: 130px;
+	max-width: 180px;
+}
+
+.nav {
+  display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	border: 1px black solid;
+	background-color: white;
+}
+
+li {
+	float: right;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 5%;
+	text-decoration: none;
+	color: brown;
+}
+
+li a:hover {
+	color: orange;
+}
+
+.navhome {
+	max-width: 10%;
+}
+
+.navuser {
+	max-width: 9%;
+}
+
+.navlogout {
+	max-width: 15%;
+}
+
+body {
+	background: rgba(253, 228, 170);
+}
+
+#main {
+	background-image: url(images/books.jpg);
+	background-size: cover;
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+#main_table {
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	overflow-x: auto;
+}
+
+a {
+	text-decoration: none;
+	color: brown;
+}
+
+h3 {
+	font-family: "Courier New", Courier, monospace;
+}
+
+#login {
+	background: rgba(210, 195, 195, 0.7);	/*using rgba values to control colour and opacity*/
+	border: 10px orange solid;
+	display: inline-block;
+	width: 35%;
+	min-height: 300px;
+	min-width: 200px;
+	margin-right: 3%;
+	margin-left: 2%;
+	padding: 5px;
+	vertical-align: top;
+}
+
+#register {
+	background: rgba(210, 195, 195, 0.7);
+	border: 10px orange solid;
+	display: inline-block;
+	width: 35%;
+	min-height: 300px;
+	min-width: 200px;
+	margin-right: 3%;
+	margin-left: 2%;
+	padding: 5px;
+	vertical-align: top;
+}
+
+#search {
+	background: rgba(210, 195, 195, 0.7);
+	border: 10px orange solid;
+	display: inline-block;
+	width: 80%;
+	min-height: 300px;
+	min-width: 200px;
+	margin: auto;
+	padding: 1%;
+	vertical-align: top;
+}
+
+#view_reserved {
+	background: rgba(210, 195, 195, 0.7);
+	border: 10px orange solid;
+	display: inline-block;
+	width: 80%;
+	min-height: 150px;
+	min-width: 200px;
+	margin: auto;
+	padding: 1%;
+	margin-top: 3%;
+	vertical-align: top;
+}
+
+#view_reserved a {
+	background-color: rgba(255, 182, 108);
+	padding: 1%;
+	border: 1px black solid;
+	color: black;
+}
+
+#view_reserved a:hover {
+	color: white;
+}
+
+table {
+	margin: auto;
+	width: 95%;
+}
+
+table a {
+	color: brown;
+}
+
+table a:hover {
+	color: orange;
+}
+
+table td {
+	padding: 0.5%;
+	background-color: white;
+}
+
+table th {
+	padding: 0.5%;
+	background-color: white;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#reg_form {
+	background: rgba(210, 195, 195, 0.7);
+	width: 80%;
+	margin: auto;
+	padding: 2%;
+	border: 10px orange solid;
+}
+
+#logout, #remove, #reserve {
+	background: rgba(210, 195, 195, 0.7);
+	width: 50%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	border: 10px orange solid;
+}
+
+span {
+	color: red;
+}
+
+footer {
+	background-color: rgba(201, 164, 127);
+	border: 1px black solid;
+	padding: 1%;
+	text-align: center;
+	
+}
+
+.fcol1 {
+	width: 45%;
+	display: inline-block;
+	padding: 0.5%;
+	vertical-align: top;
+}
+
+.fcol2 {
+	width: 45%;
+	display: inline-block;
+	padding: 0.5%;
+	vertical-align: top;
+}
+
+.fcol2 img {
+	width: 50%;
+	border-radius: 30%;
+	max-width: 180px;
+	min-width: 130px;
+}
+
