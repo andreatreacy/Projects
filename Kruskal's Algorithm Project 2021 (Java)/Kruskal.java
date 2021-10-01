@@ -305,7 +305,7 @@ public Edge[] MST_Kruskal()
 } // end of Graph class
     
     // test code
-class KruskalTrees {
+class Kruskal {
 	
     public static void main(String[] args) throws IOException
     {
