@@ -309,7 +309,7 @@ class GraphLists {
 
 }
 
-public class PrimLists {
+public class Prim {
     public static void main(String[] args) throws IOException
     {
         int s;
