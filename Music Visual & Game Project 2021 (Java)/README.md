@@ -4,7 +4,7 @@ Name: Andrea Treacy
 
 Student Number: C19718305
 
-#Note
+# Note
 THIS PROJECT IS NOT COMPLETE ON GITHUB. The file was too big to store. This is just to show my code but it will not work if it is downloaded without the additional files. You can view the program working properly in this YouTube video:
 [![YouTube](http://img.youtube.com/vi/pAm0JFgpbM0/0.jpg)](https://www.youtube.com/watch?v=pAm0JFgpbM0)
 
