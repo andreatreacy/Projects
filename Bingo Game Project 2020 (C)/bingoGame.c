@@ -1,7 +1,7 @@
 /* Program Description
 Bingo game program where the user selects from the menu:
 (1) Enter player's 6 numbers
-    The user chooses either to enter their own 6 numbers or have them randomly generated
+    The user enters their own 6 numbers
 (2) Generate game's 6 random numbers
     The game generates its 6 numbers
 (3) Display both player and game number sets
