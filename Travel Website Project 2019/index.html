@@ -1,0 +1,266 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="description" content="Webiste for booking tours of Europe, U.S.A., Asia and Africa">
+<meta name="keywords" content="Travel,holiday,tour,europe,usa,asia,africa">
+
+  <title>Trailblazer Tours</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="scripts/site.js"></script>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico"> <!-- This will add a favicon to my tab in the browser beside the website title -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="worldCarousel(); nextReview()">
+<header>
+<img src="images/beachlogo4.jpg" alt="Trailblazer Tours logo">
+</header>
+ <div id="main">
+  <nav>
+	  <a id="menu">Menu</a>
+        <ul class="menuLinks">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="europe.html">Europe</a></li>
+          <li><a href="usa.html">U.S.A.</a></li>
+          <li><a href="Asia.html">Asia</a></li>
+		  <li><a href="Africa.html">Africa</a></li>
+        </ul>
+   </nav>
+  <div id="content">
+  <div id="images">
+  <img id="carousel" src="images/europe8.jpg" alt="Images of the world" />
+  </div>
+  <section id="about">
+  <h1>Trailblazer Tours</h1>
+  <p>Trailblazer Tours is Ireland's number one tour operator specialising in continental tours. We are based in Dublin and have been operating here for 25 years and counting. At the moment we are offering tours to Europe, U.S.A, Asia, and Africa. Book a tour with us today and prepare yourself for the experience of a lifetime.</p>
+  
+  </section>
+  <section id="tours">
+  <h2>Tours</h2>
+  <p>Choose from our four fabulous continental tours, and book your holiday of a lifetime today!</p>
+  <div class="tourContainer">
+  <a href="europe.html">
+  <div class="tourGrid">
+	  <h4>Europe</h4>
+	  <img src="images/europebook.jpg" alt="Europe">
+	   
+	  <div class="tourInfo">
+	 <table>
+		<tbody>
+			<tr>
+			<td>Price: From €2,830pp</td>
+			<td>Duration: 30 days</td>
+			</tr>
+			<tr>
+			<td>Max group size: 52</td>
+			<td>Age range: 18 to 80</td>
+			</tr>
+		</tbody>
+	</table>
+	  </div>
+</div>
+  </a>
+  <a href="usa.html">
+  <div class="tourGrid">
+  <h4>U.S.A.</h4>
+  <img src="images/usabook.jpg" alt="USA">
+  
+  <div class="tourInfo">
+  <table>
+		<tbody>
+			<tr>
+			<td>Price: From €9,299pp</td>
+			<td>Duration: 60 days</td>
+			</tr>
+			<tr>
+			<td>Max group size: 32</td>
+			<td>Age range: 18 to 70</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+  </div>
+  </a>
+  <a href="asia.html">
+  <div class="tourGrid">
+  <h4>Asia</h4>
+  <img src="images/asiabook.jpg" alt="Asia">
+ 
+	<div class="tourInfo">
+	<table>
+		<tbody>
+			<tr>
+			<td>Price: From €9,550pp</td>
+			<td>Duration: 25 days</td>
+			</tr>
+			<tr>
+			<td>Max group size: 52</td>
+			<td>Age range: 18 to 70</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+  </div>
+  </a>
+  <a href="africa.html">
+  <div class="tourGrid">
+  <h4>Africa</h4>
+  <img src="images/africabook.jpg" alt="Africa">
+   
+	<div class="tourInfo">
+	<table>
+		<tbody>
+			<tr>
+			<td>Price: From €5,835pp</td>
+			<td>Duration: 46 days</td>
+			</tr>
+			<tr>
+			<td>Max group size: 52</td>
+			<td>Age range: 18 to 60</td>
+			</tr>
+		</tbody>
+	</table>
+	 </div>
+ </div>
+  </a>
+  </div>
+  </section>
+  <br>
+  <section id="transport">
+  <h2>Transport</h2>
+  <p>Introducing our new state of the art coaches. Ultra-modern, ultra safe, Mercedes Coaches featuring full air-Con, free wi-fi, DVD player, big windows, and seats 52 guests. Perfect for all weathers. These coaches will take you where you want to go.</p>
+  <img src="images/bus2.jpg" alt="New bus"/>
+  </section>
+  
+   <section id="hotels">
+   <h2>Hotels</h2>
+   <p>We are partnered with only the best hotels across the globe. All of them have been awarded four stars or more.
+   <div class="hotelContainer">
+   <div class="hotelGrid">
+	<h4>The Hilton, Paris</h4>
+	<img src="images/hiltonParis3.jpg" alt="The Hilton hotel in Paris">
+	<div class="hotelInfo">
+	<table>
+		<tbody>
+			<tr>
+			<td>You will be staying here for 2 nights when you go on our Europe tour.</td>
+			</tr>
+			<tr>
+			<td><button onclick="location.href='europe.html';">View Europe Tour</button></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	</div>
+	<div class="hotelGrid">
+	<h4>The Plaza, New York</h4>
+	<img src="images/plazaNY3.jpg" alt="The Plaza hotel in New York">
+	 <div class="hotelInfo">
+	<table>
+		<tbody>
+			<tr>
+			<td>You will be staying here for 2 nights when you go on our U.S.A tour.</td>
+			</tr>
+			<tr>
+			<td><button onclick="location.href='usa.html';">View U.S.A. Tour</button></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	</div>
+   <div class="hotelGrid">
+	<h4>Mandarin Oriental Hotel, Tokyo</h4>
+	<img src="images/MandarinOrientalHotelTokyo.jpg" alt="The Mandarin Oriental hotel in Tokyo">
+	 <div class="hotelInfo">
+	<table>
+		<tbody>
+			<tr>
+			<td>You will be staying here for 2 nights when you go on our Asia tour.</td>
+			</tr>
+			<tr>
+			<td><button onclick="location.href='asia.html';">View Asia Tour</button></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	</div>
+	<div class="hotelGrid">
+	<h4>Mena House Hotel, Cairo</h4>
+	<img src="images/MenaHouseHotelCairo2.jpg" alt="The Mena House hotel in Cairo">
+	 <div class="hotelInfo">
+	<table>
+		<tbody>
+			<tr>
+			<td>You will be staying here for 2 nights when you go on our Africa tour.</td>
+			</tr>
+			<tr>
+			<td><button onclick="location.href='africa.html';">View Africa Tour</button></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	</div>
+	</div>
+	<br>
+	<a href="#">Click here for more information on all of our partnered hotels</a>
+   </section>
+  <section id="flights">
+  <h2>Flights</h2>
+  <p>We are proud to declare that all of our flights are operated by Aer Lingus (Ireland's only 4-Star airline).</p>
+  <img src="images/plane.jpg" alt="Aer Lingus plane">
+  <br>
+  <iframe width="560" height="515" src="https://www.youtube.com/embed/RkVEhibCj58" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <br>
+  <div id="reviewContainer">
+	<span id="message"></span>
+  </div>
+  <br>
+  </div>
+</div>
+
+<footer>
+<div class="footerContainer">
+<div class="footerGrid">
+<ul>
+<li><a href="#">Privacy & Security</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Cookie Policy</a></li>
+
+</ul>
+</div>
+
+<div class="footerGrid">
+<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">Jobs</a></li>
+<li><a href="#">FAQ</a></li>
+</ul>
+</div>
+
+<div class="footerGrid">
+<ul>
+<li><a href="#">Testimonials</a></li>
+<li><a href="#">Promotions & Competitions</a></li>
+<li><a href="#">Press</a></li>
+</ul>
+</div>
+
+<div class="footerGrid">
+<ul>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Gift Vouchers</a></li>
+<li><a href="#">Brochures</a></li>
+</ul>
+</div>
+</div>
+
+<p>&#169; 2019 Trailblazer Tours</p> <!-- This will create a copyright symbol -->
+
+</footer>
+</body>
+</html>
+

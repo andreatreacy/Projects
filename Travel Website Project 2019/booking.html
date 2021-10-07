@@ -1,0 +1,243 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Booking Form</title>
+	<script src="scripts/site.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico"> <!-- This will add a favicon to my tab in the browser beside the website title -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+<img src="images/beachlogo4.jpg" alt="Trailblazer Tours logo">
+</header>
+	<div id="main">
+		<header>
+  
+		</header>
+    <nav>
+	  <a id="menu">Menu</a>
+        <ul class="menuLinks">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="europe.html">Europe</a></li>
+          <li><a href="usa.html">USA</a></li>
+          <li><a href="Asia.html">Asia</a></li>
+		  <li><a href="Africa.html">Africa</a></li>
+        </ul>
+   </nav>
+		<div id="content">
+			<h1>Booking Form</h1>
+			<form name="bookingForm" onsubmit="return( validate() );" method="post">
+			<fieldset>
+				<legend>Personal Details</legend>
+				<div>
+				<label>
+				First Name <span>*</span>
+				</label>
+				<span class="errorMessage" id="firstnameMessage"></span>
+				<input class="generalInput" type="text" id="firstname" name="firstname"><br>
+				</div>
+				
+				<div>
+				<label>
+				Last Name <span>*</span>
+				</label>
+				<span class="errorMessage" id="lastnameMessage"></span>
+				<input class="generalInput" type="text" id="lastname" name="lastname"><br>
+				</div>
+				
+				<div>
+				<label>
+				Phone Number <span>*</span>
+				</label>
+				<span class="errorMessage" id="phoneMessage"></span>
+				<input class="generalInput" type="text" id="phone" name="phone"><br>
+				</div>
+				
+				<div>
+				<label>
+				Email <span>*</span>
+				</label>
+				<span class="errorMessage" id="emailMessage"></span>
+				<input class="generalInput" type="text" id="email" name="email"><br>
+				</div>
+				
+				<div>
+				<label>
+				Address Line 1 <span>*</span>
+				</label>
+				<span class="errorMessage" id="address1Message"></span>
+				<input class="generalInput" type="text" id="address1" name="address1"><br>
+				</div>
+				
+				<div>
+				<label>
+				Address Line 2
+				</label>
+				<input class="generalInput" type="text" id="address2" name="address2"><br>
+				</div>
+				
+				<div>
+				<label>
+				City/Town <span>*</span>
+				</label>
+				<span class="errorMessage" id="cityTownMessage"></span>
+				<input class="generalInput" type="text" id="cityTown" name="cityTown"><br>
+				</div>
+				
+				<div>
+				<label>
+				County/State <span>*</span>
+				</label>
+				<span class="errorMessage" id="countyStateMessage"></span>
+				<input class="generalInput" type="text" id="countyState" name="countyState"><br>
+				</div>
+				
+				<div>
+				<label>
+				Country <span>*</span>
+				</label>
+				<span class="errorMessage" id="countryMessage"></span>
+				<input class="generalInput" type="text" id="country" name="country">
+				</div>
+				
+			</fieldset>
+			
+			<fieldset>	
+				<legend>Booking Details</legend>
+				<div>
+				<label class="generalInput">
+				Season of Travel <span>*</span>
+				</label>
+				<input type="radio" name="continent" value="spring" checked><label>Spring</label><br>
+				<input type="radio" name="continent" value="summer"><label>Summer</label><br>
+				<input type="radio" name="continent" value="autumn"><label>Autumn</label><br>
+				<input type="radio" name="continent" value="winter"><label>Winter</label><br><br>
+				</div>
+				<div>
+				<label class="generalInput">
+				Extras
+				</label>
+				<input type="checkbox" name="extras" value="insurance">Insurance (€40pp)<br>
+				<input type="checkbox" name="extras" value="first-class">Seats with extra leg room (€5pp)<br>
+				<input type="checkbox" name="extras" value="view">Room with a view (€20pp)<br>
+				<input type="checkbox" name="extras" value="bed">Suitcase over 20kg (€10pp)<br>
+				</div>
+				
+				<div>
+				<p>Create a password to manage your booking</p>
+				<label>
+				Password
+				</label>
+				<input class="generalInput" type="password" name="password1"><br>
+				</div>
+				
+				<div>
+				<label>
+				Confirm Password
+				</label>
+				<input class="generalInput" type="password" name="password2"><br><br>
+				</div>
+				
+				<div>
+				<label>
+				Additional Requests
+				</label><br>
+				<textarea class="generalInput" name = "requests" placeholder = "additional requests here" cols= "40" rows = "6"></textarea>
+				</div>
+			</fieldset>
+			
+			<fieldset>	
+				<legend>Payment Details</legend>
+				<div>
+					<label class="generalInput">Card Type <span>*</span></label><select>
+					<option value="dt228">Credit</option>
+					<option value="dt282">Debit</option>
+					</select><br><br>
+				</div>
+				<div>
+				<label>
+				Cardholder Name <span>*</span>
+				</label>
+				<span class="errorMessage" id="cardholderMessage"></span>
+                <input type="text" class="generalInput" id="cardholder" name="cardholder"><br>
+				</div>
+				
+				<div>
+				<label>
+				Card Number <span>*</span>
+				</label>
+				<span class="errorMessage" id="cardNumberMessage"></span>
+                <input type="number" class="generalInput" id="cardNumber" name="cardNumber"><br>
+				</div>
+				
+				<div>
+				<label>
+				CVV <span>*</span>
+				</label>
+				<span class="errorMessage" id="cvvMessage"></span>
+                <input type="number" class="generalInput" id="cvv" name="cvv"><br>
+				</div>
+				
+				<div>
+				<label>
+				Expiration Date <span>*</span>
+				</label>
+				<span class="errorMessage" id="dateMessage"></span>
+				<input class="generalInput" type="date" id="date" name="expirationDate"><br>
+				</div>
+				
+				<button type="submit">Submit</button>
+				</fieldset>
+			
+				
+			</form>
+			<br>
+		</div>
+  </div>
+  <footer>
+<div class="footerContainer">
+<div class="footerGrid">
+<ul>
+<li><a href="#">Privacy & Security</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Cookie Policy</a></li>
+
+</ul>
+</div>
+
+<div class="footerGrid">
+<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">Jobs</a></li>
+<li><a href="#">FAQ</a></li>
+</ul>
+</div>
+
+<div class="footerGrid">
+<ul>
+<li><a href="#">Testimonials</a></li>
+<li><a href="#">Promotions & Competitions</a></li>
+<li><a href="#">Press</a></li>
+</ul>
+</div>
+
+<div class="footerGrid">
+<ul>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Gift Vouchers</a></li>
+<li><a href="#">Brochures</a></li>
+</ul>
+</div>
+</div>
+
+<p>&#169; 2019 Trailblazer Tours</p> <!-- This will create a copyright symbol -->
+
+</footer>
+</body>
+</html>
+
